@@ -60,7 +60,7 @@ Fonts
 Moz Selectio
 ================================================*/
 :root {
-  --primary-color: #C1ED0B;
+  --primary-color: #fad617;
   --dark-color: #1B1B1B;
   --secondary-color: #666666;
   --grey-color: #F4F4F4;
@@ -3772,7 +3772,7 @@ header#pq-header .pq-bottom-header .navbar .navbar-brand {
   line-height: 75px;
 }
 header#pq-header .pq-bottom-header .navbar .navbar-brand img {
-  height: 55px;
+  height: 150px;
   border-radius: 0;
   width: auto;
 }
@@ -7604,7 +7604,7 @@ Custom class
 
 /*============  banner section page 2 =================*/
 .homepage2 {
-  background-image: linear-gradient(90deg, #F4F4F4 60%, #C1ED0B 40%);
+  background-image: linear-gradient(90deg, #F4F4F4 60%, #fad617 40%);
   padding: 120px 0;
   margin: 0;
   }
