@@ -127,15 +127,41 @@
 
                                 </li>
                                 <li class="menu-item">
-                                    <a href="index.html#">Diplomado </a>
+                                    <a href="directorio.html">Directorio </a>
 
                                 </li>
                                 <li class="menu-item">
-                                    <a href="index.html#">Cursos </a>
+                                    <a href="index.html#cuerpo-docente">Cuerpo docente </a>
+
 
                                 </li>
+                                <li class="menu-item mega-menu">
+                                    <a href="#">Oferta educativa <i class="fa-solid fa-caret-down"></i></a>
+
+                                    <ul class="sub-menu mega-content">
+                                        <li class="mega-column">
+                                            <h4>Diplomados</h4>
+                                            <ul>
+                                                <li><a href="diplomado-detail.html">Diplomado </a></li>
+                                                <li><a href="diplomado-detail.html">Diplomado </a></li>
+                                                <li><a href="diplomado-detail.html">Diplomado </a></li>
+                                                <li><a href="diplomado-detail.html">Diplomado </a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="mega-column">
+                                            <h4>Cursos</h4>
+                                            <ul>
+                                                <li><a href="curso-detail.html">Curso </a></li>
+                                                <li><a href="curso-detail.html">Curso </a></li>
+                                                <li><a href="curso-detail.html">Curso </a></li>
+                                                <li><a href="curso-detail.html">Curso </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li class="menu-item">
-                                    <a href="index.html#">Docentes </a>
+                                    <a href="">Sedes </a>
 
                                 </li>
                                 <li class="menu-item">
@@ -212,7 +238,8 @@
             <div class="pq-designer-content-aboutus-section-wrapper">
                 <div class="pq-designer-page-2-wrapper content1">
                     <div class="pq-image-section-div">
-                        <img src="images/about-us/designer-content/inner_about_us_001.webp" alt="image" style="width: 80%;">
+                        <img src="images/about-us/designer-content/inner_about_us_001.webp" alt="image"
+                            style="width: 80%;">
                     </div>
                     <div class="pq-designer-info-box">
                         <div class="pq-title-heading">
@@ -260,12 +287,14 @@
                         </div>
                     </div>
                     <div class="pq-image-section-div">
-                        <img src="images/about-us/designer-content/inner_about_us_002.webp" alt="image" style="width: 80%;">
+                        <img src="images/about-us/designer-content/inner_about_us_002.webp" alt="image"
+                            style="width: 80%;">
                     </div>
                 </div>
                 <div class="pq-designer-page-2-wrapper content1">
                     <div class="pq-image-section-div">
-                        <img src="images/about-us/designer-content/inner_about_us_001.webp" alt="image" style="width: 80%;">
+                        <img src="images/about-us/designer-content/inner_about_us_001.webp" alt="image"
+                            style="width: 80%;">
                     </div>
                     <div class="pq-designer-info-box">
                         <div class="pq-title-heading">
@@ -858,4 +887,64 @@
     <script src="js/wow.min.js"></script>
     <script src="js/anime.min.js"></script>
     <script src="js/custom.js"></script>
+
+    <style>
+        .mega-menu {
+            position: relative;
+        }
+
+        .mega-menu .mega-content {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 500px;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            display: none !important;
+
+            /* importante */
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 30px;
+        }
+
+        .mega-menu:hover .mega-content {
+            display: flex !important;
+        }
+
+        .mega-menu .mega-column {
+            flex: 1 1 0;
+            list-style: none;
+        }
+
+        .mega-menu .mega-column>ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .mega-menu .mega-column h4 {
+            margin-bottom: 12px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .mega-menu .mega-column ul li {
+            margin-bottom: 8px;
+        }
+
+        .mega-menu .mega-column ul li a {
+            display: block;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .mega-content {
+                flex-direction: column;
+                width: 100%;
+            }
+        }
+    </style>
 </body>

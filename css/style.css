@@ -3828,7 +3828,7 @@ header#pq-header .pq-bottom-header .navbar .navbar-brand {
   line-height: 75px;
 }
 header#pq-header .pq-bottom-header .navbar .navbar-brand img {
-  height: 150px;
+  height: 100px;
   border-radius: 0;
   width: auto;
 }
@@ -4464,7 +4464,7 @@ ul.product_list_widget li img {
 }
 /*============ top-header ============*/
 .pq-top-header {
-  background-color: var(--dark-color);
+  background-color: #296a58;
   color: var(--grey-color);
   padding: 0 30px;
 }
